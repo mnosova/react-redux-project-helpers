@@ -1,0 +1,42 @@
+@import "../../../shared/helpers/styles/mixins";
+@import "../../../shared/helpers/styles/variables";
+
+.loading {
+  width: 100%;
+}
+
+.img-container {
+  text-align: center;
+
+  img {
+    width: 10vw;
+    height: 10vw;
+    display: inline-block;
+
+    @include respond-to(notebook) {
+      width: vw(50px, 1280);
+      height: vw(50px, 1280);
+    }
+
+    @include respond-to(laptop) {
+      width: vw(50px, 1024);
+      height: vw(50px, 1024);
+    }
+
+    @include respond-to(tablet) {
+      width: vw(50px, 768);
+      height: vw(50px, 768);
+    }
+
+    @include respond-to(mobile) {
+      width: vw(200px, $mobile);
+      height: vw(200px, $mobile);
+    }
+  }
+}
+
+.main-loader {
+  min-height: 100%;
+  position: absolute;
+  background-color: #fff;
+}

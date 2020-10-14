@@ -1,0 +1,12 @@
+{
+  "port": 4000,
+  "api": "https://api.3332222.ru",
+  "sessionRedisDb": 3,
+  "sessionTTL": 1814400,
+  "sessionSecret": "cthfbG4AVf6s",
+  "dictionaryRedisDb": 9,
+  "redisHost" : "127.0.0.1",
+  "redisPort" : 6379,
+  "production": true,
+  "debug": false
+}

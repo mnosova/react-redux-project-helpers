@@ -1,0 +1,16 @@
+{
+  "port": 5000,
+  "reloadDelay": 700,
+  "api": "http://api-mafia.spbdev.ru",
+  "sessionRedisDb": 5,
+  "sessionTTL": 1814400,
+  "sessionSecret": "cthfbG4AVf6s",
+  "production": false,
+  "inspect": false,
+  "reload": true,
+  "debug": [
+    "/product",
+    "/product/get_list"
+  ],
+  "debugPerformance": true
+}
